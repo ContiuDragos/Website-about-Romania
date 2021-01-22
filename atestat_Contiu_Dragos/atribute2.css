@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color:none;
+	background:url(sfinx.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#page
+{
+  	display: block; 
+  	height:auto;
+ 	overflow: hidden; 
+  	width: 800px;
+	margin: 0 auto 0 auto;
+}
+.box
+{
+	text-align:center;
+	position:relative;
+	margin-top:40px;
+	font-size:25px;
+	margin-left:0px;
+	width:150px;
+	height:100px;
+	line-height:30px;
+	float:left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+.box a
+{
+	text-decoration:none;
+	color:dark-blue;
+	
+}
+.box a:hover
+{
+	color:yellow;
+}
+#contentBox
+{
+	width:1650px;
+}
+.right
+{
+	width:350px;
+	background-color:white;
+	float:right;
+}
+.left
+{
+	width:350px;
+	background-color:white;
+	float:left;
+}
+.center
+{
+	width:350px;
+	background-color:white;
+	float:left;
+	margin-left:75px;
+}
+.center2
+{
+	width:350px;
+	background-color:white;
+	float:right;
+	margin-right:75px;
+	margin-left:75px;
+}
+.contentTitle
+{
+	font-size:25px;
+	margin-bottom:0px;
+	padding-top:18px;
+	margin-left:15px;
+}
+.contentText
+{
+	font-size:13px;
+	line-height:25px;
+	margin-left:13px;
+	margin-right:13px;
+}

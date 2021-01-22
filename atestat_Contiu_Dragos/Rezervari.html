@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/CSS" href="atribute3.css">
+		<title>Rezervari</title>
+	</head>
+	<body>
+		<div id="page">
+				<div class="box"><a href="index.html">Pagina principala</a></div>
+				<div class="box"><a href="Detalii.html">Detalii </a></div>
+				<div class="box"><a href="Obiective.html">Obiective turistice </a></div>
+				<div class="box"><a href="Rezervari.html">Rezervări </a></div>
+				<div class="box"><a href="Galerie.html">Galerie</a></div>
+		</div>
+		<div class="contentBox">
+			<div class="innerBox">
+				<p><h1>Posibilitati de cazare</h1><br><br></p>
+				<form action="program.php" method="post">
+				<div class="contentTitle">Datele personale</div>
+				<table border="0" width="100%" id="tabel1">
+					<tr>
+						<td>Nume: </td>
+						<td><input type="text" name="nume" required="" width="20"></td>
+					</tr>
+					<tr>
+						<td>Prenume: </td>
+						<td><input type="text" name="prenume" required="" width="20"></td>
+					</tr>
+					<tr>
+						<td>Adresa: </td>
+						<td><input type="text" name="adresa" required="" width="20"></td>
+					</tr>
+					<tr>
+						<td>CNP: </td>
+						<td><input type="text" name="cnp" required="" width="20"></td>
+					</tr>
+					<tr>
+						<td>Email: </td>
+						<td><input type="text" name="email" required="" width="20"></td>
+					</tr>
+					<tr>
+						<td>Telefon: </td>
+						<td><input type="text" name="telefon" required="" width="20"></td>
+					</tr>
+				</table>
+				<div class="contentText">
+					<p>Sunteti de acord ca datele personale sa fie prelucrate de catre site-ul nostru in vederea gasirii unei cazari convenabile?</p>
+					<input type="radio" name="alegere" value="DA" checked>DA
+					<br>
+					<input type="radio" name="alegere" value="NU">NU
+					<br>
+				</div>
+				<div class="contentTitle">Hoteluri si Pensiuni</div>
+				<br>
+				<select size="1" name="hotel" required="" >
+				<option value="Pensiunea Lotus - Delta Dunarii">Pensiunea Lotus - Delta Dunarii</option>
+				<option value="Guest House - Delta Dunarii">Guest House - Delta Dunarii</option>
+				<option value="Cabana Manu - Rosia Montana">Cabana Manu - Rosia Montana</option>
+				<option value="Casa Petri - Rosia Montana">Casa Petri - Rosia Montana</option>
+				<option value="Casa Pepa - Cazanele Dunarii">Casa Pepa - Cazanele Dunarii</option>
+				<option value="Casa Ana Serena - Cazanele Dunarii">Casa Ana Serena - Cazanele Dunari</option>
+				<option value="Hotel Marea Neagra - Peles">Hotel Marea Neagra - Peles</option>
+				<option value="Club-resort Marami - Peles">Club-resort Marami - Peles</option>
+				<option value="Mercure Binderbubi - Sighisoara">Mercure Binderbubi - Sighisoara</option>
+				<option value="Pensiunea Bella Vista - Sighisoara">Pensiunea Bella Vista - Sighisoara</option>
+				<option value="Hotel Piscu Negru - Transfagarasan">Hotel Piscu Negru - Transfagarasan</option>
+				<option value="Conacul Ursului - Transfagarasan">Conacul Ursului - Transfagarasan</option>
+				<option value="Ibis Hotel - Bucuresti">Ibis Hotel - Bucuresti</option>
+				<option value="Hotel Trianon - Bucuresti">Hotel Trianon - Bucuresti</option>
+				<option value="Rin Hotel - Bucuresti">Rin Hotel - Bucuresti</option>
+				<option value="Hotel Alpin - Poiana Brasov">Hotel Alpin - Poiana Brasov</option>
+				<option value="Hotel Ambient - Brasov">Hotel Ambient - Brasov</option>
+				<option value="Hotel Timisoara">Hotel Timisoara</option>
+				<option value="Hotel Excelsior - Timisoara">Hotel Excelsior - Timisoara</option>
+				</select>
+				<div class="contentTitle">Tipul camerei</div>
+				<br>
+				<input type="radio" name="camera" value="simpla" checked>Camera simpla
+				<br>
+				<input type="radio" name="camera" value="dubla">Camera dubla
+				<br>
+				<input type="radio" name="camera" value="apartament">Apartament
+				<br>
+				<div class="contentTitle">Care dintre urmatoarele mese doriti sa le serviti in cadrul cazarii alese?</div>
+				<div class="contentText" required="">
+					<p>Mic dejun <input type="checkbox" name="mese[]" value="1"></p>
+					<p>Pranz <input type="checkbox" name="mese[]" value="2"></p>
+					<p>Cina <input type="checkbox" name="mese[]" value="3"></p>
+				</div>
+				<div class="contentTitle">Alte observatii cu privire la sejurul dumneavoastra:</div>
+				<div class="contentText">
+					<p>(Detalii precum alergii la anumite alimente, preferinte la orientarea camerei sau orice nelamurire pe care o aveti cu privire la cazarea aleasa)</p>
+					<textarea rows="10" cols="90" name="observatii"></textarea>
+					<input type="submit" name="trimite" value="Trimite comanda">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type="reset" value="Sterge">
+				</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
